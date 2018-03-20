@@ -15,6 +15,18 @@
 		075B33581EF7797500A8115B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 075B33561EF7797500A8115B /* LaunchScreen.storyboard */; };
 		075B33631EF7797500A8115B /* audioMix_jstTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 075B33621EF7797500A8115B /* audioMix_jstTests.m */; };
 		075B336E1EF7797500A8115B /* audioMix_jstUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 075B336D1EF7797500A8115B /* audioMix_jstUITests.m */; };
+		075B33811EF7872400A8115B /* sound_voices.wav in Resources */ = {isa = PBXBuildFile; fileRef = 075B337F1EF7872400A8115B /* sound_voices.wav */; };
+		075B33851EF7A00400A8115B /* fivesound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 075B337E1EF7872400A8115B /* fivesound.mp3 */; };
+		075B33871EF7F0FB00A8115B /* sampleVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 075B33861EF7E74600A8115B /* sampleVideo.mp4 */; };
+		075B338F1EF8C97800A8115B /* DrumsMonoSTP.aif in Resources */ = {isa = PBXBuildFile; fileRef = 075B33821EF7872C00A8115B /* DrumsMonoSTP.aif */; };
+		075B33901EF8C97800A8115B /* GuitarMonoSTP.aif in Resources */ = {isa = PBXBuildFile; fileRef = 075B33831EF7872C00A8115B /* GuitarMonoSTP.aif */; };
+		075B33911EF8C97800A8115B /* guitarStereo.caf in Resources */ = {isa = PBXBuildFile; fileRef = 075B33841EF7872C00A8115B /* guitarStereo.caf */; };
+		075B33931EF8CA8C00A8115B /* mergeVideo.mov in Resources */ = {isa = PBXBuildFile; fileRef = 075B33921EF8CA8C00A8115B /* mergeVideo.mov */; };
+		075B33951EF8CAA900A8115B /* myPlayer.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 075B33941EF8CA9B00A8115B /* myPlayer.mp4 */; };
+		075B339B1EFA7D2D00A8115B /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 075B339A1EFA7D2D00A8115B /* star.png */; };
+		0766153620610DEA008F0315 /* ocAudioFileModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0766153120610DE9008F0315 /* ocAudioFileModel.m */; };
+		0766153720610DEA008F0315 /* ocAudioFileManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 0766153320610DE9008F0315 /* ocAudioFileManger.m */; };
+		0766153820610DEA008F0315 /* MixerVoiceHandle.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0766153420610DEA008F0315 /* MixerVoiceHandle.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +63,21 @@
 		075B33691EF7797500A8115B /* audioMix_jstUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = audioMix_jstUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		075B336D1EF7797500A8115B /* audioMix_jstUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = audioMix_jstUITests.m; sourceTree = "<group>"; };
 		075B336F1EF7797500A8115B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		075B337E1EF7872400A8115B /* fivesound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fivesound.mp3; sourceTree = "<group>"; };
+		075B337F1EF7872400A8115B /* sound_voices.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound_voices.wav; sourceTree = "<group>"; };
+		075B33821EF7872C00A8115B /* DrumsMonoSTP.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = DrumsMonoSTP.aif; sourceTree = "<group>"; };
+		075B33831EF7872C00A8115B /* GuitarMonoSTP.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = GuitarMonoSTP.aif; sourceTree = "<group>"; };
+		075B33841EF7872C00A8115B /* guitarStereo.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = guitarStereo.caf; sourceTree = "<group>"; };
+		075B33861EF7E74600A8115B /* sampleVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sampleVideo.mp4; sourceTree = "<group>"; };
+		075B33921EF8CA8C00A8115B /* mergeVideo.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = mergeVideo.mov; sourceTree = "<group>"; };
+		075B33941EF8CA9B00A8115B /* myPlayer.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = myPlayer.mp4; sourceTree = "<group>"; };
+		075B339A1EFA7D2D00A8115B /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		0766153120610DE9008F0315 /* ocAudioFileModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ocAudioFileModel.m; sourceTree = "<group>"; };
+		0766153220610DE9008F0315 /* ocAudioFileManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ocAudioFileManger.h; sourceTree = "<group>"; };
+		0766153320610DE9008F0315 /* ocAudioFileManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ocAudioFileManger.m; sourceTree = "<group>"; };
+		0766153420610DEA008F0315 /* MixerVoiceHandle.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MixerVoiceHandle.mm; sourceTree = "<group>"; };
+		0766153520610DEA008F0315 /* ocAudioFileModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ocAudioFileModel.h; sourceTree = "<group>"; };
+		0766153920610E10008F0315 /* MixerVoiceHandle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MixerVoiceHandle.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +132,21 @@
 				075B334C1EF7797500A8115B /* AppDelegate.m */,
 				075B334E1EF7797500A8115B /* ViewController.h */,
 				075B334F1EF7797500A8115B /* ViewController.m */,
+				0766153920610E10008F0315 /* MixerVoiceHandle.h */,
+				0766153420610DEA008F0315 /* MixerVoiceHandle.mm */,
+				0766153220610DE9008F0315 /* ocAudioFileManger.h */,
+				0766153320610DE9008F0315 /* ocAudioFileManger.m */,
+				0766153520610DEA008F0315 /* ocAudioFileModel.h */,
+				0766153120610DE9008F0315 /* ocAudioFileModel.m */,
+				075B337E1EF7872400A8115B /* fivesound.mp3 */,
+				075B337F1EF7872400A8115B /* sound_voices.wav */,
+				075B33821EF7872C00A8115B /* DrumsMonoSTP.aif */,
+				075B33831EF7872C00A8115B /* GuitarMonoSTP.aif */,
+				075B339A1EFA7D2D00A8115B /* star.png */,
+				075B33841EF7872C00A8115B /* guitarStereo.caf */,
+				075B33861EF7E74600A8115B /* sampleVideo.mp4 */,
+				075B33921EF8CA8C00A8115B /* mergeVideo.mov */,
+				075B33941EF8CA9B00A8115B /* myPlayer.mp4 */,
 				075B33511EF7797500A8115B /* Main.storyboard */,
 				075B33541EF7797500A8115B /* Assets.xcassets */,
 				075B33561EF7797500A8115B /* LaunchScreen.storyboard */,
@@ -249,8 +291,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				075B33951EF8CAA900A8115B /* myPlayer.mp4 in Resources */,
+				075B338F1EF8C97800A8115B /* DrumsMonoSTP.aif in Resources */,
+				075B33901EF8C97800A8115B /* GuitarMonoSTP.aif in Resources */,
+				075B33911EF8C97800A8115B /* guitarStereo.caf in Resources */,
+				075B33871EF7F0FB00A8115B /* sampleVideo.mp4 in Resources */,
+				075B339B1EFA7D2D00A8115B /* star.png in Resources */,
+				075B33851EF7A00400A8115B /* fivesound.mp3 in Resources */,
 				075B33581EF7797500A8115B /* LaunchScreen.storyboard in Resources */,
 				075B33551EF7797500A8115B /* Assets.xcassets in Resources */,
+				075B33931EF8CA8C00A8115B /* mergeVideo.mov in Resources */,
+				075B33811EF7872400A8115B /* sound_voices.wav in Resources */,
 				075B33531EF7797500A8115B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +328,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				075B33501EF7797500A8115B /* ViewController.m in Sources */,
+				0766153820610DEA008F0315 /* MixerVoiceHandle.mm in Sources */,
+				0766153720610DEA008F0315 /* ocAudioFileManger.m in Sources */,
+				0766153620610DEA008F0315 /* ocAudioFileModel.m in Sources */,
 				075B334D1EF7797500A8115B /* AppDelegate.m in Sources */,
 				075B334A1EF7797500A8115B /* main.m in Sources */,
 			);
@@ -518,6 +572,7 @@
 				075B33741EF7797500A8115B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		075B33751EF7797500A8115B /* Build configuration list for PBXNativeTarget "audioMix_jstTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +581,7 @@
 				075B33771EF7797500A8115B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		075B33781EF7797500A8115B /* Build configuration list for PBXNativeTarget "audioMix_jstUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +590,7 @@
 				075B337A1EF7797500A8115B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
